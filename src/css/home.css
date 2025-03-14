@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+}
+.box {
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(255, 244, 231); */
+background-color: rgb(255, 244, 231);
+    margin-bottom: 10px;
+padding-left: 40px;
+    
+}
+
+.boxtext {
+    color: #3d3d3d;
+    text-align: left;
+    padding-top: 40px;
+    font-family: 'Akaya Kanadaka';
+    font-size: 80px;
+    text-shadow: #f77f07 2px 2px;
+}
+
+.boxtext p {
+    color: orange;
+}
+
+.boximg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    right: 10%;
+    top: 70px;
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+#leo {
+    width: 250px;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+
+
+.shopnow {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid gray;
+}
+.shopnow1{
+    border: none;
+}
+.shopnow:hover{
+cursor: pointer;
+backdrop-filter:blur(5px) brightness(90%);
+}
+
+.menu2 {
+    margin-top: 20px;
+    
+    background-image: url(../assets/images/hbg.png);
+    background-size: cover;
+    
+    flex-wrap: wrap;
+    display: flex;
+   justify-content: center;
+    gap: 14%;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 130px;
+}
+
+.menu2-content {
+    text-align: center;
+    width: 10%;
+    height: 120px;
+
+}
+#mimg{
+width: 6em;
+height: 6em;
+
+
+
+}
+#mimg:hover{
+    transform: scale(1.1);
+}
+h5{
+
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/* pet card css */
+
+.pet-cloth{
+    position: relative;
+    border-top: #757575 solid ;
+    margin-top: 10px;
+    height:auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+}
+@media only screen and (max-width: 700px) {
+
+    .pet-cloth {
+      height: auto;
+    }
+    .pet-cloth-cont{
+        padding-top: 50px;
+    }
+
+  }
+
+.pet-cloth-cont{
+    margin-top: 20px;
+    height: 300px;
+  
+    width: 200px;
+}
+#petshopicon{
+
+right: 20px;
+top: 20px;
+}
+#petheading{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+
+left: 10px;
+top: 10px;
+}
+.pet-cloth-cont img{
+    height: 200px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+
+}
+.pet-cloth-cont>img:hover{
+    scale: 1.1;
+    filter: drop-shadow(5px 5px 5px 5px rgb(23, 23, 23));
+}
+#ch3{
+    text-align: left;
+}
+#cp3{
+    text-align: left;
+    font-size: 20px;
+    color: #fec355;
+}
+#cartbutton{
+    float: left;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    background-color: transparent;
+  
+    border-radius: 10px;
+    border: black solid 0.5px;
+    color: rgb(74, 74, 74);
+}
+#cartbutton:hover{
+    transform: scale(1.1);
+    background-color: beige;
+    color: #000000;
+}
+#favbutton{
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: transparent;
+    
+    border-radius: 10px;
+    border: black solid 0.5px;
+    color: rgb(74, 74, 74);
+}
+#favbutton:hover{
+    color: red;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .box {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        background-color: rgb(255, 244, 231);
+        margin-bottom: 10px;
+    padding-left: 40px;
+        
+    }
+    
+    .boxtext {
+        text-align: left;
+        padding-top: 40px;
+        font-family: 'Akaya Kanadaka';
+        font-size: 45px;
+    }
+    
+    .boxtext p {
+        color: orange;
+    }
+    
+    .boximg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        border-radius: 50%;
+        right: 8%;
+        top: 20px;
+        height:200px;
+        width: 200px;
+        background-color: bisque;
+        box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    #leo {
+        position: absolute;
+        bottom: 10px;
+        width: 130px;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    }
+
+
+    
+    
+}

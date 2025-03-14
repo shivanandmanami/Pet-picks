@@ -1,0 +1,36 @@
+.about {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    padding-top: 70px;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .about a {
+    display: inline-block;
+    background-color: #f04;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+  }
+  
+  .about h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }

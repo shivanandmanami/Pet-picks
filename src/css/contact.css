@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Akaya Kanadaka');
+@import url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+
+
+.contact-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 70px;
+   
+    margin-left: 150px;
+    
+    /* margin-left: 250px; */
+    .first-part{    
+        
+       .info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+       }
+        .part1{
+            display: flex;
+            flex-direction: row;
+            p{
+                font-family: 'Akaya kanadaka';
+                opacity: 0.8;
+
+            }
+            
+        }
+        .heading{
+            font-family:  'Akaya Kanadaka';
+            color: rgb(68, 68, 68) ;
+            
+            font-size:  40px ;
+        }
+        #img1{
+            height: 250px;
+            margin-right: 140px;
+        }
+    }
+
+    
+}
+p{
+    font-family: 'Akaya kanadaka';
+    opacity: 0.8;
+
+}
+#submit{
+    font-family: 'Akaya kanadaka';
+    font-size: x-large;
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    #offi{
+        margin-top: 5px;
+    }
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+    #manage{
+        margin-top: 5px;
+    }
+}
+
+.second-part{
+   
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    .get-in{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .heading{
+            font-family:  'Akaya Kanadaka';
+            color: rgb(68, 68, 68) ;
+            font-size:  40px ;
+        }
+    }
+
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        input{
+            height: 40px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        input::placeholder{
+            font-family: 'Akaya Kanadaka';
+
+        }
+        .submit{
+            background-color: black;
+            height: 40px;
+            width: 250px;
+            border-radius: 5px;
+            color: white;
+        }
+
+
+        .small-input{
+            display: flex;
+            flex-direction: row;
+        }
+        .big-input{
+            height: 100px;
+        }
+        
+    }
+}
+
+
+@media(max-width: 769px){
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+    }
+}

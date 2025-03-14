@@ -1,0 +1,96 @@
+/* cart.css */
+
+.Cart {
+  position: relative;
+  padding:20 px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.Cart-h {
+  padding-top: 70px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  .cart-icon{
+    height: 30px;
+    width: auto;
+    margin-right: 8px;
+  }
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+td{
+  font-size: larger;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Cart-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.Cart-button {
+  background-color: #d9b800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #efd854;
+  border: black solid 1px;
+  border-radius: 2px;
+}
+#qtyy{
+  font-size: x-large;
+
+}
+.in-button{
+width: 20px;
+margin-right: 10px;}
+.de-button{
+  width: 20px;
+  margin-left: 10px;
+}
+.total{
+  position: fixed;
+  right: 20vh;
+}
+
+#remove{
+  width: 30px;
+  height: auto;
+  border: solid white;
+  background-color: white;
+  cursor: pointer; 
+
+  
+}
+
+#p-name{
+  margin-left: -100px;
+  margin-right: 100px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Akaya Kanadaka');
+@import url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+.shop{
+display: flex;
+padding-top: 60px;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    
+width: 30%;
+height: 500px;
+
+
+}
+.csearch-bar{
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+        height: 50px;
+background-color: transparent;
+
+}
+.csearch-input{
+    height: 50px;
+    width: 200px;
+
+border: black solid 0.8px;
+border-radius: 10px;
+}
+.csearch-input::placeholder{
+    font-size: 16px;
+    color: darkgray;
+   padding-left: 10px;
+}
+.csicon{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+  right: 20px;
+}
+
+.categories-list{
+    font-family: 'Akaya Kanadaka';
+    font-size: 20px;
+   
+    padding-left: 50px;
+    text-align: left;
+}
+#link{
+    font: size 25px;
+    font-family: 'Akaya Kanadaka';
+    text-decoration: none;
+    
+}
+.shopcard{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,106 @@
+.Dogshop{
+    padding-top: 60px;
+    background-color: #fcfcfc;
+}
+#dheading{
+    text-shadow: #fbb000 2px 2px;
+    text-shadow: #fbb000;
+    padding-top: 10px;
+    font-size: 50px;
+}
+.pet-cloth{
+    border: none;
+    position: relative;
+    background-color: transparent;
+   padding-bottom: 20px;
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.pet-cloth-cont{
+    margin-top: 80px;
+    height: 300px;
+  
+    width: 220px;
+}
+#petshopicon{
+position: absolute;
+right: 20px;
+top: 20px;
+}
+#petheading{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+position: absolute;
+left: 20px;
+top: 10px;
+text-shadow: #fbb000 2px 2px;
+}
+.pet-cloth-cont img{
+border: #000000 solid 1px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+#ch3{
+    
+    text-align: left;
+}
+#cp3{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(254, 195, 85);
+}
+#cartbutton{
+    float: left;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    background-color: transparent;
+  
+    border-radius: 10px;
+    border: black solid 0.5px;
+    color: rgb(74, 74, 74);
+}
+#cartbutton:hover{
+    transform: scale(1.1);
+    background-color: beige;
+    color: #000000;
+}
+#favbutton{
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: transparent;
+    
+    border-radius: 10px;
+    border: black solid 0.5px;
+    color: rgb(74, 74, 74);
+}
+#favbutton:hover{
+    color: red;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .pet-cloth {
+      height: auto;
+    }
+    .pet-cloth-cont{
+        padding-top: 50px;
+    }
+
+  }

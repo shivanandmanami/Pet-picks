@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Akaya Kanadaka');
+@import url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+.footer{
+    
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 40px;
+background-color: #fbede0;
+}
+.fcontent {
+font-size: 16px;
+ font-family:  'Akaya Kanadaka', serif;
+    height: 150px;
+    width: 20%;
+}
+.fcontent1{
+    height: 250px;
+}
+.fcontent1 img{
+    padding-top: 30px;
+    height: 80px;
+    width: 150px;
+}
+.fcontent2 li {
+font-family:'JetBrainsMono';
+list-style: none;
+border: none;
+text-decoration-style: solid;
+}
+#f3{
+    font-family:'JetBrainsMono';
+}
+#links{
+    border: none;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,78 @@
+.shopCard {
+    position: relative;
+    margin-top: 10px;
+    height: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .shopCard {
+        
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+    .pet-shop-cont {
+        padding-top: 50px;
+    }
+}
+
+.pet-shop-cont {
+    margin-top: 20px;
+    height: auto;
+    width: 150px; /* Adjust width as needed */
+}
+
+.pet-shop-cont img {
+    height: 200px;
+    /* Make the image fill the container */
+    border-radius: 20px;
+}
+
+#ch3 {
+    text-align: left;
+}
+
+#cp3 {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(254, 195, 85);
+}
+
+#cartbutton {
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: black solid 0.5px;
+    color: rgb(74, 74, 74);
+    cursor: pointer;
+}
+
+#cartbutton:hover {
+    transform: scale(1.1);
+    background-color: beige;
+    color: #000000;
+}
+
+#favbutton {
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: black solid 0.5px;
+    color: rgb(74, 74, 74);
+}
+
+#favbutton:hover {
+    color: red;
+}
